@@ -1,0 +1,92 @@
+html {
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+body {
+    margin: auto;
+    width: 50%;
+}
+
+a {
+    text-decoration: none;
+    color: #009414;
+}
+
+a:hover {
+    color: #00DC0D;
+    text-decoration: underline;
+}
+.home-link {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.btn {
+    padding: 10px 15px;
+    background-color: #FFF;
+    border: 1px solid #000;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: #FFF;
+    background-color: #000;
+}
+
+.page-title {
+    text-align: center;
+}
+
+.subtitle {
+    text-align: center;
+}
+
+.success-msg {
+    color: #009E0A;
+    text-align: center;
+}
+
+.error-msg {
+    color: #CE0000;
+    text-align: center;
+}
+
+.main-index {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-item {
+    min-height: 100px;
+    text-align: center;
+}
+
+.grid-item:hover {
+    border: 2px solid #000;
+}
+
+table {
+    margin: auto;
+    min-width: 100%;
+}
+
+tr td {
+    text-align: center;
+}
+
+tr.table-row td {
+    border-bottom: 1px solid #000;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.confirmation-form {
+    text-align: center;
+}
